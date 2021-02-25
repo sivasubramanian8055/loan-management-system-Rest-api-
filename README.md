@@ -27,7 +27,6 @@ A Rest API which facilitates in managing loans and provide access level and acti
    >Loan<br/>
     Has details of principle, interest rate, months to repay, emi, status and history of edited loans<br/>
 
-
     **key features**
     - customers can alone Signup<br/>
     - While signup customers details will be fed to the database.<br/>

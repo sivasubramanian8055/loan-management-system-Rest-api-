@@ -1,0 +1,24 @@
+version: '3'
+services:
+  api:
+    image: loanrestapi:1.0
+    build: .
+    networks:
+      - backend
+    ports:
+      - "3600:3600"
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo
+    volumes:
+      - ./data:/data/db
+    networks:
+      - backend
+    ports:
+      - "27017:27017"
+
+networks:
+  backend:
+    driver: bridge

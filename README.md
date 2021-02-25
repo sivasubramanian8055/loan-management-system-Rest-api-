@@ -25,7 +25,7 @@ A Rest API which facilitates in managing loans and provide access level and acti
   > User<br/>
     Has details about the user such as name, email, password and his loan details<br/>
    >Loan<br/>
-    Has details of principle, interest rate, months to repay, emi, status and history of edited loans
+    Has details of principle, interest rate, months to repay, emi, status and history of edited loans<br/>
 
 
     **key features**
